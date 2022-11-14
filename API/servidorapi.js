@@ -1,6 +1,7 @@
 import express from 'express'
 import {rutas} from '../Routes/rutas.js'
 import { conectarConMongo } from '../Database/conexion.js'
+import cors from 'cors'
 
 
 export class Servidorapi{
